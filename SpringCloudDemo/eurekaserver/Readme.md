@@ -1,0 +1,2 @@
+- Khởi động Eureka Server bằng cách chạy EurekaServerApplication.java. 
+- Sau đó,truy cập trang quản lý của Eureka tại http://localhost:8761.

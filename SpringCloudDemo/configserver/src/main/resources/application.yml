@@ -7,3 +7,4 @@ spring:
       server:
         git:
           uri: https://github.com/vanhieu-it/config-repo
+          default-label: master

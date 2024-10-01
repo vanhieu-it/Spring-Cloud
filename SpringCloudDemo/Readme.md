@@ -41,17 +41,17 @@
    + Kiểm tra User Service qua API Gateway
      
      ```
-     http://localhost:8080/users/{id}
+     http://localhost:8082/users/{id}
 
-     http://localhost:8080/users/123
+     http://localhost:8082/users/123
 
      ```
    + Kiểm tra Order Service qua API Gateway
      
      ```
-     http://localhost:8080/orders/{id}
+     http://localhost:8085/orders/{id}
 
-     http://localhost:8080/orders/456
+     http://localhost:8085/orders/456
 
      ```
 

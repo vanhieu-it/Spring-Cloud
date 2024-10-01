@@ -19,12 +19,12 @@
 
   + Chạy ConfigServerApplication.java.
   + Kiểm tra: Truy cập http://localhost:8888/user-service/default để kiểm tra xem cấu hình của user-service có được trả về từ Config Server hay không.
-4. Khởi động các microservices (User Service và Order Service)
+3. Khởi động các microservices (User Service và Order Service)
   + User Service
   + Order Service
     > mvn clean install
   + Truy cập vào Eureka Dashboard (http://localhost:8761) để kiểm tra xem User Service và Order Service  đã đăng ký thành công hay chưa.
-5. Khởi động API Gateway (Spring Cloud Gateway)
+4. Khởi động API Gateway (Spring Cloud Gateway)
 - Mô tả: API Gateway là nơi nhận các yêu cầu từ client và định tuyến chúng đến các microservice thích hợp.
   + Chạy lệnh Maven:
        

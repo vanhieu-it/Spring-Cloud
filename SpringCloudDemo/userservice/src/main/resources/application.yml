@@ -8,7 +8,7 @@ spring:
 
   config:
     import:
-      - "optional:configserver:"  # Đặt trong danh sách và dùng dấu ngoặc kép
+      - "optional:configserver:"
 
 eureka:
   client:
